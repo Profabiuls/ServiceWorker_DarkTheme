@@ -1,0 +1,25 @@
+{
+    "name": "Il punto d ascolto",
+    "short_name": "PA",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "I nostri servizi.",
+    "icons": [
+        {
+            "src": "./img/iconFacebook.jpg",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/iconFacebook.jpg",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/iconFacebook.jpg",
+            "sizes": "48x48",
+            "type": "any"
+        }
+    ]
+}
