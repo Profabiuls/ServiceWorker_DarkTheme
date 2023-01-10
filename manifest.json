@@ -1,25 +1,33 @@
 {
-    "name": "Il punto d ascolto",
-    "short_name": "PA",
-    "start_url": ".",
-    "display": "standalone",
-    "background_color": "#fff",
-    "description": "I nostri servizi.",
+    "short_name": "FM",
+    "name": "App FMNetwork",
     "icons": [
         {
-            "src": "./img/iconFacebook.jpg",
-            "sizes": "48x48",
+            "src": "/icons/android-chrome-144x144.png",
+            "sizes": "144x144",
             "type": "image/png"
         },
         {
-            "src": "./img/iconFacebook.jpg",
-            "sizes": "48x48",
+            "src": "icons/mstile-150x150.png",
+            "sizes": "150x150",
             "type": "image/png"
         },
         {
-            "src": "./img/iconFacebook.jpg",
-            "sizes": "48x48",
-            "type": "any"
+            "src": "/icons/apple-touch-icon-152x152.png",
+            "sizes": "152x152",
+            "type": "image/png"
         }
-    ]
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#fff",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "permissions": [
+        "geolocation",
+        "notifications"
+    ],
+   
+    "prefer_related_applications": false
 }
